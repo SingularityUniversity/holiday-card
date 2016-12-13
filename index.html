@@ -43,13 +43,13 @@
     }
 
     .front {
-      -webkit-transform: rotateX(-20deg);
+      -webkit-transform: rotateX(0deg);
       z-index: 3;
       -webkit-backface-visibility: hidden;
     }
 
     .inner-left {
-      -webkit-transform: rotateX(-20deg);
+      -webkit-transform: rotateX(0deg);
       z-index: 2;
     }
 
@@ -64,16 +64,16 @@
 
     .card:hover .front,
     .card:hover .inner-left {
-      -webkit-transform: rotateX(-35deg);
+      -webkit-transform: rotateX(10deg);
     }
 
     .card-toggle:checked + .card .front,
     .card-toggle:checked + .card .inner-left {
-      -webkit-transform: rotateX(-165deg);
+      -webkit-transform: rotateX(180deg);
     }
 
     .card-toggle:checked + .card .inner-right {
-      -webkit-transform: rotateX(-15deg);
+      -webkit-transform: rotateX(0deg);
     }
   </style>
 </head>
